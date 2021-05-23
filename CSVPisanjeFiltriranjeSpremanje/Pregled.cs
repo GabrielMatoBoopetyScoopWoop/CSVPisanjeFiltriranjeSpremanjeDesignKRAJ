@@ -22,7 +22,7 @@ namespace CSVPisanjeFiltriranjeSpremanje
         }
         private void UcitajButton_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Do you want a filtered result?", "Filtered or normal?", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("Zelite li filtrirani rezultat?", "Filtrirano ili normalno?", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
                 if (File.Exists(PutanjaFiltrirano))

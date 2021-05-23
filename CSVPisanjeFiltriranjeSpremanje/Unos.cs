@@ -67,7 +67,7 @@ namespace CSVPisanjeFiltriranjeSpremanje
             }
             else
             {
-                MessageBox.Show("Napravili ste prazan upis, pokusajte ponovno", "Pogresan upis!");
+                MessageBox.Show("Vas upis je prazan, CSV nije napravljen", "Prazan upis!");
             }
             Close();
         }
